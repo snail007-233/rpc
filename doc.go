@@ -1,10 +1,10 @@
 // Copyright 2009 The Go Authors. All rights reserved.
-// Copyright 2012 The Gorilla Authors. All rights reserved.
+// Copyright 2012 The snail007 Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
 /*
-Package gorilla/rpc is a foundation for RPC over HTTP services, providing
+Package snail007/rpc is a foundation for RPC over HTTP services, providing
 access to the exported methods of an object through HTTP requests.
 
 This package derives from the standard net/rpc package but uses a single HTTP
@@ -20,8 +20,8 @@ Let's setup a server and register a codec and service:
 
 	import (
 		"http"
-		"github.com/gorilla/rpc"
-		"github.com/gorilla/rpc/json"
+		"github.com/snail007/rpc"
+		"github.com/snail007/rpc/json"
 	)
 
 	func init() {
@@ -74,8 +74,8 @@ and make available the ones that follow these rules:
 
 All other methods are ignored.
 
-Gorilla has packages with common RPC codecs. Check out their documentation:
+snail007 has packages with common RPC codecs. Check out their documentation:
 
-	JSON: http://gorilla-web.appspot.com/pkg/rpc/json
+	JSON: http://snail007-web.appspot.com/pkg/rpc/json
 */
 package rpc

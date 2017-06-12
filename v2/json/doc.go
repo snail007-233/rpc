@@ -1,17 +1,17 @@
 // Copyright 2009 The Go Authors. All rights reserved.
-// Copyright 2012 The Gorilla Authors. All rights reserved.
+// Copyright 2012 The snail007 Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
 /*
-Package gorilla/rpc/json provides a codec for JSON-RPC over HTTP services.
+Package snail007/rpc/json provides a codec for JSON-RPC over HTTP services.
 
 To register the codec in a RPC server:
 
 	import (
 		"http"
-		"github.com/gorilla/rpc/v2"
-		"github.com/gorilla/rpc/v2/json"
+		"github.com/snail007/rpc/v2"
+		"github.com/snail007/rpc/v2/json"
 	)
 
 	func init() {
@@ -51,8 +51,8 @@ Response format is:
 	id:
 		The same id as the request it is responding to.
 
-Check the gorilla/rpc documentation for more details:
+Check the snail007/rpc documentation for more details:
 
-	http://gorilla-web.appspot.com/pkg/rpc
+	http://snail007-web.appspot.com/pkg/rpc
 */
 package json

@@ -1,5 +1,5 @@
 // Copyright 2009 The Go Authors. All rights reserved.
-// Copyright 2012 The Gorilla Authors. All rights reserved.
+// Copyright 2012 The snail007 Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
@@ -13,7 +13,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/gorilla/rpc"
+	"github.com/snail007/rpc"
 )
 
 var ErrResponseError = errors.New("response error")
